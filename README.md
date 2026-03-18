@@ -96,5 +96,5 @@ firmware.
 -   Secondary: UEFI bootkit, WPBT bootkit, persistent bootkit
 
 contact me on telegram
-to buy this software 👇👇👇
+to buy this software 👇
 https://t.me/H16kM4w
