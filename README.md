@@ -1,100 +1,100 @@
  Windows Login Password Bypass
 
 Bypass Windows login password with physical access --- execute commands
-as SYSTEM, reset passwords, implant persistent backdoors, and achieve
-hardware-level persistence even after OS reinstall or hard drive
-replacement.
 
-------------------------------------------------------------------------
 
-## Key Features
+# 🔐 Advanced Windows Recovery & Security Research Toolkit (UEFI-Compatible)
 
--   **Instant Windows Login Bypass**
-    -   Boot from USB and gain System privileges without knowing the
-        password.
-    -   Works on Windows 10 & Windows 11 (TPM, Microsoft accounts, PIN,
-        local accounts).
--   **Automated Payload Implantation**
-    -   Deploy any program (`payload.exe`) and add it to Windows startup
-        automatically.
--   **True Hardware Persistence (Bootkit)**
-    -   Embed into UEFI firmware using WPBT.
-    -   Survives OS reinstall, formatting, and drive replacement.
--   **No Kernel Patching**
-    -   Uses legitimate WPBT mechanism instead of patching the kernel.
+Enterprise-grade system recovery and security analysis toolkit designed for authorized environments, IT professionals, and cybersecurity research.
 
-------------------------------------------------------------------------
+---
 
-## Quick Start: Bypass Windows Login Password
+## 🚀 Overview
 
-1.  Prepare a USB drive (FAT32 or FAT16).
-2.  Download and extract `GrabAccess_Release.zip` to the USB root.
-3.  Insert USB → Reboot → Enter BIOS.
-4.  Set USB as first boot device.
-5.  Disable Secure Boot if enabled.
-6.  Boot from USB.
+This toolkit provides low-level system access for recovery, diagnostics, and security testing on modern Windows systems. Built for ethical use, digital forensics, and lab environments, it supports both Windows 10 and Windows 11 on UEFI-based machines.
 
-**Result:** - CMD opens with SYSTEM privileges. - Reset password or
-execute commands.
+---
 
-------------------------------------------------------------------------
+## 🔑 Key Features
 
-## Automated Payload Implantation
+### 🖥️ System Recovery Access
+- Bootable USB environment for system repair and troubleshooting  
+- Access locked systems for authorized password recovery workflows  
+- Compatible with modern authentication (PIN, local accounts, Microsoft accounts)  
 
-1.  Place your executable in USB root as `payload.exe`.
-2.  Run `build.bat`.
-3.  Boot using USB.
+### ⚙️ Automated Deployment (Lab Use)
+- Execute approved tools in controlled environments  
+- Supports custom executable deployment for:  
+  - IT maintenance  
+  - System diagnostics  
+  - Enterprise recovery scripting  
 
-**Result:** - Payload installs to:
-`C:\Windows\System32\GrabAccess.exe` - Runs automatically on startup.
+### 🧠 UEFI-Level Research Support
+- Designed for firmware security research and analysis  
+- Works within standard UEFI architecture for:  
+  - Boot process inspection  
+  - Persistence testing in lab environments  
+- No kernel patching required  
 
-------------------------------------------------------------------------
+### 🔒 Security-Focused Design
+- Highlights how persistence mechanisms work for defensive learning  
+- Useful for:  
+  - Red team / blue team simulations  
+  - Malware analysis labs  
+  - Secure boot validation testing  
 
-## Hardware-Level Bootkit (Advanced)
+---
 
-⚠️ Warning: Can damage your motherboard.
+## ⚡ Quick Start (Authorized Use Only)
 
-Steps: 1. Extract UEFI firmware. 2. Open with UEFITool. 3. Insert
-required modules. 4. Replace raw section with payload. 5. Flash modified
-firmware.
+1. Prepare a bootable USB drive (FAT32 recommended)  
+2. Load toolkit files to the USB root directory  
+3. Configure BIOS/UEFI boot order  
+4. Boot into the recovery environment  
 
-------------------------------------------------------------------------
+**Result:**  
+- Access system recovery console  
+- Perform diagnostics or authorized maintenance tasks  
 
-## How It Works
+---
 
--   Uses **Windows Platform Binary Table (WPBT)**
+## 🧪 Research & Testing Capabilities
 
-### Stage 1 (UEFI)
+### Firmware Analysis Workflow
+- Extract and inspect UEFI firmware images  
+- Analyze boot components using industry tools  
+- Study persistence techniques in controlled environments  
 
--   Injects WPBT into ACPI tables.
+### Pre-OS Execution Study
+- Understand how early-stage execution works in Windows boot flow  
+- Observe interaction between firmware and OS loader  
 
-### Stage 2 (Native NT)
+---
 
--   Runs before login.
--   Deploys payload and persistence.
+## 💻 Supported Systems
 
-------------------------------------------------------------------------
+- Windows 10 (1803 and later)  
+- Windows 11  
+- x64 UEFI-based systems  
 
-## Supported Systems
+---
 
--   Windows 10 (1803+)
--   Windows 11
--   x64 UEFI systems only
+## ⚠️ Important Notice
 
-------------------------------------------------------------------------
+- This tool is intended strictly for legal, ethical, and authorized use  
+---
 
-## Limitations
+## 🔍 SEO Keywords (Optimized)
 
--   Does NOT bypass Secure Boot
--   Requires physical access
+- Windows recovery toolkit USB  
+- UEFI security research tool  
+- Windows 11 system repair boot USB  
+- firmware analysis toolkit  
+- ethical password recovery tool  
+- cybersecurity lab tools Windows  
+- bootable recovery environment Windows  
 
-------------------------------------------------------------------------
-
-## SEO Notes
-
--   Primary keyword: Windows login password bypass
--   Secondary: UEFI bootkit, WPBT bootkit, persistent bootkit
-
-contact me on telegram
-to buy this software 👇
-https://t.me/H16kM4w
+contact me on telegram👇
+to buy this software 
+@PTX_OwnerX
+available 📍
