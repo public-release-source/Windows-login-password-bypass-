@@ -3,7 +3,7 @@
 Bypass Windows login password with physical access --- execute commands
 
 
-# 🔐 Advanced Windows Recovery & Security Research Toolkit (UEFI-Compatible)
+# 🔐 Advanced Windows Recovery
 
 Enterprise-grade system recovery and security analysis toolkit designed for authorized environments, IT professionals, and cybersecurity research.
 
