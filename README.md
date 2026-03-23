@@ -1,7 +1,3 @@
- Windows Login Password Bypass
-
-Bypass Windows login password with physical access --- execute commands
-
 
 # 🔐 Advanced Windows Recovery
 
