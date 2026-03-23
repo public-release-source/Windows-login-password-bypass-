@@ -96,5 +96,5 @@ This toolkit provides low-level system access for recovery, diagnostics, and sec
 
 contact me on telegram👇
 to buy this software 
-@PTX_OwnerX
+https://t.me/PTX_OwnerX
 available 📍
